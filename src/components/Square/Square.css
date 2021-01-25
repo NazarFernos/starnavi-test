@@ -1,0 +1,37 @@
+.Square {
+  border: 1px solid #000;
+}
+.Square:hover {
+    background: #dadada;
+}
+.blue {
+  background: mediumturquoise;
+  cursor: pointer;
+}
+.blue:hover {
+    background: mediumturquoise;
+}
+.green {
+  background: #51ac15;
+}
+.green:hover {
+    background: #51ac15;
+}
+.red {
+  background: #d63447;
+}
+.red:hover {
+    background: #d63447;
+}
+.small {
+  width: 35px;
+  height: 35px;
+}
+.middle {
+  width: 53.5px;
+  height: 53.5px;
+}
+.big {
+  width: 109px;
+  height: 109px;
+}

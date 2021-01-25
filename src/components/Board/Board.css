@@ -1,0 +1,50 @@
+.Board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+}
+.boardTitle {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.loadingWrap {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 25px;
+}
+.winnersList {
+  list-style-type: none;
+  width: 400px;
+  height: 630px;
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+.winnersListItem {
+  padding: 25px 15px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  color: #404040;
+  font-size: 18px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+.highlightLastWinner:first-child {
+  background: #5be43938;
+}
+.winnerUsername {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.winnerDate {
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
